@@ -1,0 +1,108 @@
+- name: Mahta Fetrat
+  subtitle: Lead TA
+  email: m.fetrat@sharif.edu
+  img: assets/images/TAs/mfetrat.jpg
+
+- name: Mahdi Mastani
+  subtitle: TA
+  email: mastanimahdi1@gmail.com
+  img: assets/images/TAs/mmastani.jpg
+
+- name: Asal Meskin
+  subtitle: TA
+  email: asalmskin82@gmail.com 
+  img: assets/images/TAs/ameskin.jpg
+
+- name: Sajjad Rahmani
+  subtitle: TA
+  img: assets/images/TAs/srahmani.jpg
+
+- name: Saeide Danaei
+  subtitle: TA
+  img: assets/images/TAs/sdanaei.jpg
+
+- name: Amir Vahedi
+  subtitle: TA
+  img: assets/images/TAs/avahedi.jpg
+
+- name: MohammadReza Davoodi
+  subtitle: TA
+  email: mohammadreza1376@gmail.com
+  img: assets/images/TAs/mdavoodi.jpg
+
+- name: Mehran Advand
+  subtitle: TA
+  img: assets/images/TAs/maduvand.jpg
+
+- name: Samin Kakaei
+  subtitle: TA
+  email: samin.kakaei@gmail.com
+  img: assets/images/TAs/skakaei.jpg
+
+- name: Arshia Gharooni
+  subtitle: TA
+  email: arshiyagharoony@gmail.com
+  img: assets/images/TAs/agharooni.jpg
+
+- name: Alireza Mirrokni
+  subtitle: TA
+  img: assets/images/TAs/amirrokni.jpg
+
+- name: Ali Najjar
+  subtitle: TA
+  email: anajar13750@gmail.com
+  img: assets/images/TAs/anajar.jpg
+
+- name: Kiarash Kiani
+  subtitle: TA
+  email: kiarashkia138@gmail.com
+  img: assets/images/TAs/kkiani.jpg
+
+- name: Amin Fadaei
+  subtitle: TA
+  img: assets/images/TAs/afadaei.jpg
+
+- name: Ali HajiSadeghian
+  subtitle: TA
+  email: alihajisadeghian250@gmail.com
+  img: assets/images/TAs/ahajiSadeghian.jpg
+
+- name: Erfan Jafari
+  subtitle: TA
+  img: assets/images/TAs/erfan.jpg
+
+- name: MohammadHossein Mahdikhani
+  subtitle: TA
+  img: assets/images/TAs/mhmehdikhani.jpg
+
+- name: Alireza Haghshenas
+  subtitle: TA
+  img: assets/images/TAs/ahaghshenas.jpg
+
+- name: Danial Gharibi
+  subtitle: TA
+  email: danial.mail.gh@gmail.com
+  img: assets/images/TAs/dgharib.jpg
+
+- name: Amirhossein Izadi
+  subtitle: TA
+  email: Amirizadi2002@gmail.com
+  img: assets/images/TAs/aizadi.jpg
+
+- name: Mahan Beyhaghi
+  subtitle: TA
+  img: assets/images/TAs/mbayhaghi.jpg
+
+- name: Arshia Dadras
+  subtitle: TA
+  email: arshiadadras1234@gmail.com
+  img: assets/images/TAs/adadras.jpg
+
+- name: Shayan Aryana
+  subtitle: TA
+  email: Shayanaryania@gmail.com
+  img: assets/images/TAs/saryania.jpg
+
+- name: AmirReza Azari
+  subtitle: TA
+  img: assets/images/TAs/AAzari.jpg

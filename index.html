@@ -1,0 +1,238 @@
+---
+layout: master
+---
+
+<div>
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Machine learning</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="link-home-tab" data-bs-toggle="pill" data-bs-target="#link-home"
+                            type="button" role="tab" aria-controls="link-home" aria-selected="true">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="link-profile-tab" data-bs-toggle="pill" data-bs-target="#link-profile"
+                            type="button" role="tab" aria-controls="link-profile" aria-selected="false">
+                            Materials
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="link-contact-tab" data-bs-toggle="pill" data-bs-target="#link-contact"
+                            type="button" role="tab" aria-controls="link-contact" aria-selected="false">
+                            Assignments
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tab-content p-2 rounded-2" id="links-tabContent">
+        <div class="tab-pane fade show active" id="link-home" role="tabpanel" aria-labelledby="link-home-tab"
+            tabindex="0">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h4 class="display-6">CE40477: Machine learning</h4>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            {{site.data.description.semester}}, Group {{site.data.description.group}};
+                            Computer Engineering Department,
+                            Sharif University of Technology,
+                            Tehran,
+                            Tehran Province,
+                            Iran
+                        </small>
+                    </p>
+                    <p class="lead">
+                        Classes: {{site.data.description.classes}} <br>
+                        {%- if site.data.description.ta_classes -%}
+                        TA Classes: {{site.data.description.ta_classes}}<br>
+                        {%- endif -%}
+                    </p>
+
+                    This course provides a comprehensive introduction to machine learning, covering fundamental
+                     concepts, algorithms, and applications. Topics include supervised and unsupervised learning,
+                     optimization techniques, probabilistic models, deep learning, and reinforcement learning. 
+                     Students will gain hands-on experience through practical assignments and projects, applying 
+                     ML techniques to real-world problems. The course is designed for students with a background 
+                     in linear algebra, probability, and programming.
+                    <br><br>
+
+                    <a href="{{site.data.description.syllabus}}">Syllabus</a>
+                    &nbsp;&nbsp;
+                    <a href="{{site.data.description.course-roadmap}}">Course Roadmap</a>
+
+                    <br><br>
+
+                </div>
+                <div class="col-sm-3">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            {% for reference in site.data.references %}
+                            <div class="carousel-item {% if forloop.index == 1 %} active {% endif %}"
+                                data-bs-interval="4000">
+                                <img src="{{ reference.img }}" class="d-block w-100">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div><br>
+
+            <h4 id="scrollspyInstructors">Instructors</h4>
+
+            <div class="row">
+                {% for instructor in site.data.instructors %}
+                <div class="col-sm-6">
+                    <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="{{ instructor.img }}" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ instructor.name }}</h5>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            {{instructor.subtitle}}
+                                        </small>
+                                    </p>
+                                    <p class="card-text">
+                                        {{ instructor.detail }} <br>
+                                        <br>
+                                        <a href="mailto:{{ instructor.email }}">{{ instructor.email }}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <h4 id="scrollspyTAs">Teaching Assistants</h4>
+
+            <div class="ta-cards">
+                {% for ta in site.data.TAs %}
+                <div class="card ta-card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="{{ ta.img }}" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ ta.name }}</h5>
+                                <small class="text-muted">{{ ta.subtitle }}</small>
+                                <p class="card-text ta-email">
+                                    <a href="mailto:{{ ta.email }}">{{ ta.email }}</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div> <br>
+        </div>
+        <div class="tab-pane fade" id="link-profile" role="tabpanel" aria-labelledby="link-profile-tab" tabindex="0">
+
+            <h4 class="display-6">Materials</h4>
+
+            {% if site.data.materials %}
+            {% for material in site.data.materials reversed %}
+            <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ material.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ material.subtitle }}</h6>
+                    <p class="card-text">
+                    </p>
+                    {% for asset in material.assets %}
+                    <a href="{{ asset.link }}" class="card-link">{{ asset.file }}</a>
+
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            No material has been posted yet. <br> <br>
+            {% endif %}
+        </div>
+        <div class="tab-pane fade" id="link-contact" role="tabpanel" aria-labelledby="link-contact-tab" tabindex="0">
+
+            <h4 class="display-6">Assignments</h4>
+            {% if site.data.assignments %}
+            {% for assignment in site.data.assignments reversed %}
+            <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ assignment.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ assignment.subtitle }}</h6>
+                    <p class="card-text">
+                        {{ assignment.paragraph }}
+                    </p>
+                    {% for asset in assignment.assets %}
+                    <a href=" {{ asset.link }} " class="card-link">{{ asset.file }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            No assignment has been posted yet. <br> <br>
+            {% endif %}
+        </div>
+
+        <div class="tab-pane fade" id="link-previous" role="tabpanel" aria-labelledby="link-previous-tab" tabindex="0">
+            <h4 class="display-6">Problem sets</h4>
+            {% if site.data.previous %}
+            <div class="accordion" id="problem-sets-container">
+                {% for instruction in site.data.previous %}
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse{{ instruction.semester | slugify }}"
+                            aria-expanded="true" aria-controls="collapse{{ instruction.semester | slugify }}">
+                            {{ instruction.semester }}
+                        </button></h2>
+                    <div id="collapse{{ instruction.semester | slugify }}" class="accordion-collapse collapse"
+                        data-bs-parent="#problem-sets-container">
+                        <div class="accordion-body">
+                            {% for material in instruction.problems %}
+                            <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ material.title }}</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">{{ material.subtitle }}</h6>
+                                    <p class="card-text">
+                                    </p>
+                                    {% for asset in material.assets %}
+                                    <a href="{{ asset.link }}" class="card-link">{{ asset.file }}</a>
+
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            No Problem sets has been posted yet. <br> <br>
+            {% endif %}
+        </div>
+    </div>
+</div>
