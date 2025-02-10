@@ -106,3 +106,23 @@
 - name: AmirReza Azari
   subtitle: TA
   img: assets/images/TAs/aazari.jpg
+
+- name: Mahdi Aghaei
+  subtitle: TA
+  email: mahdiaghaei.official@gmail.com
+  img: assets/images/TAs/maghaei.jpg
+
+- name: Mohammad Mahdi Farhadi
+  subtitle: TA
+  email: mohammadmahdifarhadi93@gmail.com
+  img: assets/images/TAs/mmfarhadi.jpg
+
+- name: Mohammad Aref Zarezadeh
+  subtitle: TA
+  email: arefzarezade@gmail.com
+  img: assets/images/TAs/azazarezadeh.jpeg
+
+- name: Radin Shahdaei
+  subtitle: TA
+  email: Radin.shahdaei@gmail.com
+  img: assets/images/TAs/rshahdaei.jpeg
