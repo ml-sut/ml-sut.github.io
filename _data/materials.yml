@@ -1,5 +1,5 @@
-- title: Introduction
-  subtitle: Bahman NO, 1402
+- title: Prerequisite
+  subtitle: Linear Algebra
   assets:
-    - file: Slide
-      link: assets/materials/
+    - file: Link
+      link: https://stoch-sut.github.io/slides/
