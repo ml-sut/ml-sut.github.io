@@ -1,5 +1,6 @@
 - title: Prerequisite
-  subtitle: Linear Algebra
   assets:
-    - file: Link
+    - file: Linear Algebra
+      link: https://jabrekh.github.io/
+    - file: Probability and Statistics
       link: https://stoch-sut.github.io/slides/
