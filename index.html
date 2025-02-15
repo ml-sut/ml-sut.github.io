@@ -5,7 +5,7 @@ layout: master
 <div>
     <nav class="navbar navbar-expand-lg sticky-top bg-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Linear Algebra</a>
+            <a class="navbar-brand" href="#">Machine learning</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,12 +30,6 @@ layout: master
                             Assignments
                         </a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="link-previous-tab" data-bs-toggle="pill" data-bs-target="#link-previous"
-                            type="button" role="tab" aria-controls="link-previous" aria-selected="false">
-                            Problem sets
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -46,7 +40,7 @@ layout: master
             tabindex="0">
             <div class="row">
                 <div class="col-sm-9">
-                    <h4 class="display-6">CE282: Linear Algebra</h4>
+                    <h4 class="display-6">CE40477: Machine learning</h4>
                     <p class="card-text">
                         <small class="text-muted">
                             {{site.data.description.semester}}, Group {{site.data.description.group}};
@@ -63,20 +57,18 @@ layout: master
                         TA Classes: {{site.data.description.ta_classes}}<br>
                         {%- endif -%}
                     </p>
-
-                    This course covers matrix theory and linear algebra, emphasizing topics useful in other disciplines.
-                    Linear algebra is a branch of mathematics that studies systems of linear equations and the
-                    properties of
-                    matrices. The concepts of linear algebra are extremely useful in image processing, computer vision,
-                    data
-                    science, machine learning, bio-informatics, social networks, and neuroscience. Due to its broad
-                    range of
-                    applications, linear algebra is one of the most widely taught subjects in college-level mathematics.
+                    
+                    This course provides a comprehensive introduction to machine learning, covering fundamental
+                     concepts, algorithms, and applications. Topics include supervised and unsupervised learning,
+                     optimization techniques, probabilistic models, deep learning, and reinforcement learning. 
+                     Students will gain hands-on experience through practical assignments and projects, applying 
+                     ML techniques to real-world problems. The course is designed for students with a background 
+                     in linear algebra, probability, and programming.
                     <br><br>
 
                     <a href="{{site.data.description.syllabus}}">Syllabus</a>
                     &nbsp;&nbsp;
-                    <a href="{{site.data.description.course-roadmap}}">Course Roadmap</a>
+                    <a href="{{site.data.description.calendar}}">Calendar</a>
 
                     <br><br>
 
@@ -158,10 +150,11 @@ layout: master
                 </div>
                 {% endfor %}
             </div> <br>
-        </div> 
+        </div>
         <div class="tab-pane fade" id="link-profile" role="tabpanel" aria-labelledby="link-profile-tab" tabindex="0">
+            
             <h4 class="display-6">Materials</h4>
-        
+            
             {% if site.data.materials %}
             {% for material in site.data.materials reversed %}
             <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
@@ -176,6 +169,10 @@ layout: master
                             {% endif %}
                         {% endfor %}
                     </p>
+                    {% for asset in material.assets %}
+                    <a href="{{ asset.link }}" class="card-link">{{ asset.file }}</a>
+                    
+                    {% endfor %}
                 </div>
             </div>
             {% endfor %}
@@ -183,6 +180,28 @@ layout: master
             No material has been posted yet. <br> <br>
             {% endif %}
         </div>
+                <div class="tab-pane fade" id="link-contact" role="tabpanel" aria-labelledby="link-contact-tab" tabindex="0">
+            <h4 class="display-6">Assignments</h4>
+            {% if site.data.assignments %}
+            {% for assignment in site.data.assignments reversed %}
+            <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ assignment.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ assignment.subtitle }}</h6>
+                    <p class="card-text">
+                        {{ assignment.paragraph }}
+                    </p>
+                    {% for asset in assignment.assets %}
+                    <a href=" {{ asset.link }} " class="card-link">{{ asset.file }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            No assignment has been posted yet. <br> <br>
+            {% endif %}
+        </div>
+        
         <div class="tab-pane fade" id="link-previous" role="tabpanel" aria-labelledby="link-previous-tab" tabindex="0">
             <h4 class="display-6">Problem sets</h4>
             {% if site.data.previous %}
