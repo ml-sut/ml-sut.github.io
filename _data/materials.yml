@@ -1,3 +1,15 @@
+- title: Session 2
+  subtitle: Bahman 28, 1403
+  assets:
+    - file: slide
+      link: assets/materials/spring 2025 - slides/session2_11_28.pptx.pdf
+
+- title: Session 1
+  subtitle: Bahman 21, 1403
+  assets:
+    - file: slide
+      link: assets/materials/spring 2025 - slides/session1_11_21.pptx.pdf
+
 - title: Prerequisite
   assets:
     - file: Linear Algebra
@@ -7,14 +19,3 @@
       description: |
         These are the prerequisites for this course. Only the first two slides of Probability and Statistics are required.
 
-- title: Session 1
-  subtitle: Bahman 21, 1403
-  assets:
-    - file: slide
-      link: assets/materials/spring 2025 - slides/session1_11_21.pptx.pdf
-
-- title: Session 2
-  subtitle: Bahman 28, 1403
-  assets:
-    - file: slide
-      link: assets/materials/spring 2025 - slides/session2_11_28.pptx.pdf
