@@ -30,6 +30,12 @@ layout: master
                             Assignments
                         </a>
                     </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="link-news-tab" data-bs-toggle="pill" data-bs-target="#link-news"
+                            type="button" role="tab" aria-controls="link-news" aria-selected="false">
+                            News
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -195,6 +201,29 @@ layout: master
             {% endfor %}
             {% else %}
             No assignment has been posted yet. <br> <br>
+            {% endif %}
+        </div>
+
+        <div class="tab-pane fade" id="link-news" role="tabpanel" aria-labelledby="link-news-tab" tabindex="0">
+            <h4 class="display-6">News</h4>
+    
+            {% if site.data.news %}
+                {% for news_item in site.data.news reversed %}
+                    <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ news_item.title }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ news_item.date }}</h6>
+                            <p class="card-text">
+                                {{ news_item.content }}
+                            </p>
+                            {% if news_item.link %}
+                                <a href="{{ news_item.link }}" class="card-link">Read more</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                No news has been posted yet. <br> <br>
             {% endif %}
         </div>
         
