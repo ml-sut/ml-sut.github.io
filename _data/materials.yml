@@ -1,3 +1,15 @@
+- title: Prerequisite workshop
+  subtitle: Esfand 2, 1403
+  assets:
+    - file: Linear Algebra
+      link: assets/materials/spring 2025 - slides/LinearAlgebra.pdf
+    - file: Probability and Statistics
+      link: assets/materials/spring 2025 - slides/Probability&Statistics.pdf
+    - file: Workshop summary
+      link: assets/materials/spring 2025 - slides/Summary of Machine Learning Prerequisites Workshop.rar
+    - file: Workshop recording
+      link: https://drive.google.com/file/d/1_-p77m0qVY_EiFNC3LtFO6AZhHvGWccZ/view?usp=drive_link
+      
 - title: Session 2
   subtitle: Bahman 28, 1403
   assets:
