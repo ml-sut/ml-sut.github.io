@@ -23,15 +23,15 @@
   paragraph: >1
     Release Date: 1403/12/16, Submission Deadline: 1403/12/26<br>
 
-- title: Homework 1
+- title: Regression, Bias and Variance, ML/MAP
   subtitle: HW1
   paragraph: >1
     Release Date: 1403/11/30, Submission Deadline: 1403/12/10<br>
-#  assets:
-#    - file: Question Set
-#      link: assets/materials/spring 2024 - assignments/HW1.pdf
-#    - file: Solution
-#      link: assets/materials/spring 2024 - assignments/HW1_Sol.pdf
+  assets:
+    - file: Homework Document
+      link: assets/materials/HW1/ML_HW1_v2.pdf
+    - file: Notebook
+      link: assets/materials/HW1/Q5.ipynb
 
 
 
