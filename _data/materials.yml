@@ -1,3 +1,18 @@
+- title: Session 5
+  assets:
+    - file: slide
+      link: assets/materials/spring 2025 - slides/session5_12_05.pdf
+
+- title: Session 4
+  assets:
+    - file: slide
+      link: assets/materials/spring 2025 - slides/session4_11_30.pdf
+
+- title: Session 3
+  assets:
+    - file: slide
+      link: assets/materials/spring 2025 - slides/session3_11_28.pdf
+
 - title: Prerequisite workshop
   subtitle: Esfand 2, 1403
   assets:
@@ -11,13 +26,11 @@
       link: https://drive.google.com/file/d/1_-p77m0qVY_EiFNC3LtFO6AZhHvGWccZ/view?usp=drive_link
       
 - title: Session 2
-  subtitle: Bahman 28, 1403
   assets:
     - file: slide
       link: assets/materials/spring 2025 - slides/session2_11_28.pptx.pdf
 
 - title: Session 1
-  subtitle: Bahman 21, 1403
   assets:
     - file: slide
       link: assets/materials/spring 2025 - slides/session1_11_21.pptx.pdf
