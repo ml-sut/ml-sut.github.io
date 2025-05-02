@@ -12,7 +12,7 @@
   subtitle: HW4
   paragraph: >1
     Release Date: 1404/01/24, Submission Deadline: 1404/02/07<br>
-   assets:
+  assets:
     - file: Homework Document
       link: assets/materials/HW4/ML_HW4.pdf
     - file: Notebook
@@ -24,7 +24,7 @@
   subtitle: HW3
   paragraph: >1
     Release Date: 1404/01/05, Submission Deadline: 1404/01/19<br>
-   assets:
+  assets:
     - file: Homework Document
       link: assets/materials/HW3/ML_HW3.pdf
     - file: Notebook1
@@ -36,7 +36,7 @@
   subtitle: HW2
   paragraph: >1
     Release Date: 1403/12/16, Submission Deadline: 1403/12/26<br>
-   assets:
+  assets:
     - file: Homework Document
       link: assets/materials/HW2/ML_HW2.pdf
     - file: Notebook1
