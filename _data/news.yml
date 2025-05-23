@@ -10,10 +10,10 @@
   content: "A workshop to review the essential prerequisites for Machine Learning, covering Linear Algebra and Probability & Statistics, will be held on Thursday at 9 AM via the provided link. The session will be conducted by Mahdi Aghaei."
   link: "https://vc.sharif.edu/ch/rabiee"
 
-  - title: "ML TALK 1"
+- title: "ML TALK 1"
   date: "1403-12-21"
   content: "The first ML TALK for the course will be held on Tuesday, Esfand 21, from 12:00 PM to 1:00 PM. Our speaker for this session will be Mr. Mehdi Akhi."
 
-  - title: "ML TALK 2"
+- title: "ML TALK 2"
   date: "1404-02-30"
   content: "The second ML TALK session will be held on Tuesday, Ordibehesht 30th, from 12:00 to 13:00. The speaker for this session is Mr. Mahmoud Jarahi, a graduate of the London School of Economics (LSE), former CEO of Sa Iran (صا ایران) (involved in the establishment of Irancell and Snapp), deputy at the Bonyad Mostazafan (بنیاد مستضعفان), and a contributor to the founding of AloPeyk, TAPSI, and many other successful companies."
