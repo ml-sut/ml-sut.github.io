@@ -1,0 +1,39 @@
+- title: Midterm
+  subtitle: Midterm
+  assets:
+  - file: Questions and Solution
+    link: assets/materials/Exams/ML_Midterm_sol.pdf
+
+- title: Quiz 5
+  subtitle: Quiz 5
+  assets:
+  - file: Questions and Solution
+    link: assets/materials/Exams/ML_quiz_5_sol.pdf
+
+- title: Quiz 4
+  subtitle: Quiz 4
+  assets:
+  - file: Questions and Solution
+    link: assets/materials/Exams/ML_quiz_4_sol.pdf
+
+- title: Quiz 3
+  subtitle: Quiz 3
+  assets:
+  - file: Questions and Solution
+    link: assets/materials/Exams/ML_quiz_3_sol.pdf
+
+- title: Quiz 2
+  subtitle: Quiz 2
+  assets:
+  - file: Questions
+    link: assets/materials/Exams/ML_quiz_2.pdf
+  - file: Solution
+    link: assets/materials/Exams/ML_quiz_2_sol.pdf
+
+- title: Quiz 1
+  subtitle: Quiz 1
+  assets:
+  - file: Questions
+    link: assets/materials/Exams/ML_quiz_1.pdf
+  - file: Solution
+    link: assets/materials/Exams/ML_quiz_1_sol.pdf
