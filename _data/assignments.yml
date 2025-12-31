@@ -9,6 +9,8 @@
     link: assets/materials/HW6/HW6_Clustering.ipynb
   - file: Notebook2
     link: assets/materials/HW6/HW6_NN_DL.ipynb
+  - file: Solution
+    link: assets/materials/HW6/HW6_solution.zip
 
 - title: Homework 5
   subtitle: HW5
@@ -25,6 +27,8 @@
     link: assets/materials/HW5/dataset.csv
   - file: Data2
     link: assets/materials/HW5/knn.zip
+  - file: Solution
+    link: assets/materials/HW5/HW5_solution.zip
 
 - title: Homework 4
   subtitle: HW4
@@ -37,6 +41,8 @@
       link: assets/materials/HW4/SVM.ipynb
     - file: Data
       link: assets/materials/HW4/sentiment.csv
+    - file: Solution
+      link: assets/materials/HW4/HW4_solution.zip
 
 - title: Homework 3
   subtitle: HW3
@@ -49,6 +55,8 @@
       link: assets/materials/HW3/Q5-1.ipynb
     - file: Notebook2
       link: assets/materials/HW3/Q5-2.ipynb
+    - file: Solution
+      link: assets/materials/HW3/HW3_solution.zip
 
 - title: Homework 2
   subtitle: HW2
@@ -63,6 +71,8 @@
       link: assets/materials/HW2/LDA.ipynb
     - file: Data
       link: assets/materials/HW2/Stars.csv
+    - file: Solution
+      link: assets/materials/HW2/HW2_solution.zip
 
 - title: Regression, Bias and Variance, ML/MAP
   subtitle: HW1
@@ -75,6 +85,8 @@
       link: assets/materials/HW1/Q5.ipynb
     - file: Supplementary Problems
       link: assets/materials/HW1/HW1_extra.pdf
+    - file: Solution
+      link: assets/materials/HW1/HW1_solution.zip
 
 
 
