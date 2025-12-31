@@ -7,6 +7,17 @@
   subtitle: HW5
   paragraph: >1
     Release Date: 1404/02/14, Submission Deadline: 1404/02/28<br>
+  assets:
+  - file: Homework Document
+    link: assets/materials/HW5/ML_HW5.pdf
+  - file: Notebook1
+    link: assets/materials/HW5/KNN_PCA.ipynb
+  - file: Notebook2
+    link: assets/materials/HW5/Bagging_Boosting.ipynb
+  - file: Data1
+    link: assets/materials/HW5/dataset.csv
+  - file: Data2
+    link: assets/materials/HW5/knn.zip
 
 - title: Homework 4
   subtitle: HW4
