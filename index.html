@@ -31,6 +31,12 @@ layout: master
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="link-exam-tab" data-bs-toggle="pill" data-bs-target="#link-exam"
+                            type="button" role="tab" aria-controls="link-exam" aria-selected="false">
+                            Exams
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
                         <a class="nav-link" id="link-news-tab" data-bs-toggle="pill" data-bs-target="#link-news"
                             type="button" role="tab" aria-controls="link-news" aria-selected="false">
                             News
@@ -203,7 +209,27 @@ layout: master
             No assignment has been posted yet. <br> <br>
             {% endif %}
         </div>
-
+        <div class="tab-pane fade" id="link-exam" role="tabpanel" aria-labelledby="link-exam-tab" tabindex="0">
+            <h4 class="display-6">Exams</h4>
+            {% if site.data.exams %}
+            {% for exam in site.data.exams reversed %}
+            <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ exam.title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ exam.subtitle }}</h6>
+                    <p class="card-text">
+                        {{ exam.paragraph }}
+                    </p>
+                    {% for asset in exam.assets %}
+                    <a href=" {{ asset.link }} " class="card-link">{{ asset.file }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            No Exams has been posted yet. <br> <br>
+            {% endif %}
+        </div>
         <div class="tab-pane fade" id="link-news" role="tabpanel" aria-labelledby="link-news-tab" tabindex="0">
             <h4 class="display-6">News</h4>
     
