@@ -3,7 +3,7 @@
   paragraph: >1
     Release Date: 1404/03/04, Submission Deadline: 1404/03/20<br>
   assets:
-  - file: file: Homework Document
+  - file: Homework Document
     link: assets/materials/HW6/ML_HW6.pdf
   - file: Notebook1
     link: assets/materials/HW6/HW6_Clustering.ipynb
