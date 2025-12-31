@@ -1,3 +1,11 @@
+- title: Final
+  subtitle: Final
+  assets:
+  - file: Questions
+    link: assets/materials/Exams/ML_Final.pdf
+  - file: Solution
+    link: assets/materials/Exams/ML_Final_sol.pdf
+
 - title: Midterm
   subtitle: Midterm
   assets:
